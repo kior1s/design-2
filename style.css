@@ -1,0 +1,10 @@
+.header{
+    background-color: #D9C1A5;
+   
+}
+
+.nav_linx{
+    display:flex;
+    gap: 64px;
+    list-style: none;
+}
