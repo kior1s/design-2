@@ -1,8 +1,51 @@
 .header{
     background-color: #D9C1A5;
+    
    
 }
+.container{
+    width: 1107px;
+    margin: 0 auto;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.headercontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
+}
+
+.textHeader{
+    color: #885948;
+    text-decoration: none;
+}
+
+.heroConteiner{
+    display: flex;
+    align-items: center;
+    gap: 88px;
+}
+
+.button1{
+    color: white;
+    background-color: #885948;
+    border-radius: 40px;
+    padding: 15px 35px;
+}
+
+.bodyMain{
+    color: #885948;
+     font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-size: 64px;
+  font-weight: bold;
+  text-align: center;
+  width: 560px;
+}
 .nav_linx{
     display:flex;
     gap: 64px;
