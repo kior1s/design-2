@@ -1,6 +1,6 @@
 .header{
     background-color: #D9C1A5;
-    
+    /* height: 107px; */
    
 }
 .container{
@@ -15,18 +15,24 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 107px;
 
 }
 
 .textHeader{
     color: #885948;
     text-decoration: none;
+    font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+  font-size: 24px;
+  font-weight: normal;
 }
 
 .heroConteiner{
     display: flex;
     align-items: center;
     gap: 88px;
+    width: 1218px;
+    margin-top: 50px;
 }
 
 .button1{
@@ -34,6 +40,11 @@
     background-color: #885948;
     border-radius: 40px;
     padding: 15px 35px;
+    cursor: pointer;
+    border: none;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 32px;
 }
 
 .bodyMain{
@@ -50,4 +61,23 @@
     display:flex;
     gap: 64px;
     list-style: none;
+}
+.buttonConteiner{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
+    padding: 0;
+    margin-top: 40px;
+}
+
+.buttonConteiner button {
+    width: 225px;
+    height: 72px;
+    background-color: #885948;
+    color: white;
+    font-size: 20px;
+    border-radius: 36px;
+    cursor: pointer;
+    border: none
 }
